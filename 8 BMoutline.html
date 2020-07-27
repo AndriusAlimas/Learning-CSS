@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Box Model outline</title>
+        
+        <style>
+            .bluebox{
+                background-color: #4267B2;
+                color: white;
+                height: auto;
+                width: auto;
+                padding: 16px;
+                border: 10px rgba( 141, 130, 5, 0.681 ) ridge;
+                outline-style: solid;
+                outline-color: rgba( 165, 38, 133, 0.681 );
+                outline-width: thick;
+                
+            }
+            .yellowbox{
+                background-color: rgb(178, 148, 71);
+                height: auto;
+                width: auto;
+                padding: 10px 5px 7px 3em;
+                border-width: 10px 15px 5px 10px;
+                border-color: black green orange yellow;
+                border-style: groove;
+            }
+            .greenbox{
+                background-color: #5fa832;
+                height: 100px;
+                width: 100px;
+                padding: 10px;
+                border-width: 10px 20px;
+                border-style: groove;
+                border-color: aqua;
+                border-radius: 80px;
+            }
+            
+            p{
+                margin: 0;
+                background-color: rgba( 33, 184, 221, 0.541 );
+            }
+        </style>
+    </head>
+    
+    <body>
+         <div class="bluebox">
+            <p>Facebook.</p>
+        </div>
+        
+        <div class="yellowbox">
+            <p>Apple.</p>
+        </div>
+        
+        <div class="greenbox">
+            <p>Microsoft.</p>
+        </div>
+        
+    </body>
+
+</html>

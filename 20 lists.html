@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" >
+    <title>lists</title>
+    <style>
+        ul.list1{
+/*            list-style: square;*/
+/*            list-style: lower-roman;*/
+/*              list-style: upper-roman;*/
+            list-style-image: url(/study/images/box.png);
+        }
+        ul.list1 li#first:hover{
+            list-style-image: url(/study/images/box2.png);
+        }
+         ul.list1 li#second:hover{
+            list-style-image: url(/study/images/box2.png);
+        }
+         ul.list1 li#third:hover{
+            list-style-image: url(/study/images/box2.png);
+        }
+        ul.list2{
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        ul.list2 li{
+            background-image: url("/study/images/box.png");
+            background-repeat: no-repeat;
+            background-position: 0px center;
+            padding-left: 30px;
+        }
+    </style>
+</head>
+    <body>
+        <p>A list of European capitals: </p>
+        <ul class="list1">
+            <li id="first">Paris</li>
+            <li id="second">london</li>
+            <li id="third">Madrid</li>
+        </ul>
+         <p>A list of European capitals: </p>
+        <ul class="list2">
+            <li>Paris</li>
+            <li>london</li>
+            <li>Madrid</li>
+        </ul>
+    </body>
+</html>
